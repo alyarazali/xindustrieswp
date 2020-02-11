@@ -467,9 +467,9 @@ button:focus {
   background-size: cover;
 }
 
-/* .bioe{ */
-	/* background-image:url(../img/proj/bioe.jpg); */
-/* } */
+ .bioe{ 
+	 background-image:url(../img/proj/bioe.jpg); 
+ } 
 
 .cs{
 	background-image:url(../img/proj/cs.jpeg);
