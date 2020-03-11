@@ -1,6 +1,9 @@
 /* @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Raleway:300,400,500,600,700"); */
 /*---------------------------------------------------- */
 
+
+
+
 .list {
   list-style: none;
   margin: 0px;
@@ -196,6 +199,8 @@ button:focus {
   color: #D96955;
 }
 
+
+
 .header_area .navbar .nav .nav-item.submenu {
   position: relative;
 }
@@ -310,7 +315,7 @@ button:focus {
 }
 
 .header_area .navbar .nav.navbar-nav.navbar-right li a:hover {
-  color: #a7cb00;
+  color: #D96955;
 }
 
 .header_area .navbar .nav.navbar-nav.navbar-right li:last-child {
@@ -404,6 +409,13 @@ button:focus {
 	background-size: cover;
 }
 
+.bgc{
+	background: url(../img/slider/cntc.jpg), no-repeat center;
+	width: 100%;
+	height: 350px !important;
+	background-size: cover;
+}
+
 .home_banner_area:after{
 	    content: '';
     position: absolute;
@@ -467,9 +479,31 @@ button:focus {
   background-size: cover;
 }
 
- .bioe{ 
-	 background-image:url(../img/proj/bioe.jpg); 
- } 
+.ccard{
+	    width: 300px;
+    display: inline-block;
+    margin: 1rem;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+	text-align: center;
+}
+
+.ic{
+	font-size: 55px;
+    display: grid;
+	color: #D96955;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.ccard h6{
+	color:#666666;
+}
+
+.bioe{
+	background-image:url(../img/proj/bioe.jpg);
+}
 
 .cs{
 	background-image:url(../img/proj/cs.jpeg);
