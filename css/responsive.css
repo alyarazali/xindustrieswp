@@ -110,7 +110,7 @@
 		display: block;
 		width: 25px;
 		height: 3px;
-		background: #a7cb00;
+		background: #D96955;
 		margin: auto;
 		margin-bottom: 4px;
 		transition: all 400ms linear;
@@ -236,9 +236,9 @@
 	
 }
 @media (max-width:768px){
-	.home_banner_area {
-		min-height: 500px;
-	}
+	/* .home_banner_area { */
+		/* min-height: 500px; */
+	/* } */
 	.home_banner_area .banner_inner {
 		min-height: 500px;
 	}
@@ -324,9 +324,9 @@
 		font-size: 28px;
 		line-height: 38px;
 	}
-	.home_banner_area {
-		min-height: 500px;
-	}
+	/* .home_banner_area { */
+		/* min-height: 500px; */
+	/* } */
 	.home_banner_area .banner_inner {
 		min-height: 500px;
 	}
@@ -375,6 +375,7 @@
 	============================================================================================ */
 	.footer-area {
 		padding: 70px 0px;
+		text-align: center;
 	}
 	
 	.footer-social{
